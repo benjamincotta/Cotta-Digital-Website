@@ -1,0 +1,217 @@
+@import 'config';
+@import 'nav';
+
+main {
+  background-color: $primary;
+  .above-fold {
+    height: 84vh;
+
+    h1 {
+      font-size: 4.5em;
+      color: $text-color;
+      margin-bottom: 0;
+      letter-spacing: 3px;
+    }
+    h2 {
+      font-size: 3.2em;
+      letter-spacing: 5px;
+      color: $gray-color;
+      margin-top: 0.4em;
+      font-weight: bold;
+    }
+    h3 {
+      margin-top: 2em;
+      color: $pink-color;
+      letter-spacing: 4.5px;
+    }
+    span {
+      color: $text-color;
+    }
+
+    button {
+      margin-top: 2em;
+      border: 1px solid $secondary-bg-color;
+      border-radius: 3px;
+      padding: 10px 30px;
+      background-color: $secondary-bg-color;
+      color: $text-color;
+      letter-spacing: 1.5px;
+      transition: all 0.5s;
+
+      &:hover {
+        background-color: $red-color;
+        border: 1px solid $red-color;
+      }
+    }
+  }
+  .about-me {
+    height: 100vh;
+
+    h4 {
+      color: $pink-color;
+    }
+
+    p {
+      color: $text-color;
+      letter-spacing: 1px;
+    }
+  }
+  .work {
+    height: 100vh;
+
+    h4 {
+      color: $pink-color;
+    }
+    .card {
+      background: $secondary-bg-color;
+
+      .card-text,
+      a {
+        color: $text-color;
+      }
+      h5 {
+        color: $pink-color;
+        letter-spacing: 2px;
+      }
+      a {
+        margin-right: 1em;
+        transition: all 0.5s;
+
+        &:hover {
+          color: $red-color;
+        }
+      }
+    }
+  }
+  .connect {
+    height: 100vh;
+
+    h4 {
+      color: $gray-color;
+    }
+    h5 {
+      color: $text-color;
+      font-size: 5em;
+    }
+    a {
+      color: $pink-color;
+      font-size: 3em;
+      text-decoration: none;
+      letter-spacing: 1px;
+      transition: all 0.5s;
+
+      &:hover {
+        color: $red-color;
+      }
+    }
+    svg {
+      margin-left: 0.3em;
+    }
+  }
+}
+
+// MEDIA -----------------------------------------------------------------------
+
+@media (max-width: 768px) {
+  main {
+    .above-fold {
+      h1 {
+        font-size: 3.5em;
+      }
+      h2 {
+        font-size: 2.6em;
+      }
+    }
+    .work {
+      h5 {
+        font-size: 1em;
+      }
+    }
+    .connect {
+      h5 {
+        font-size: 4em;
+      }
+      a {
+        font-size: 2.5em;
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  main {
+    .above-fold {
+      h1 {
+        font-size: 2.8em;
+      }
+      h2 {
+        font-size: 1.6em;
+      }
+      h3 {
+        font-size: 1.2em;
+      }
+    }
+    .work {
+      height: auto;
+    }
+    .connect {
+      h5 {
+        font-size: 3.2em;
+      }
+      a {
+        font-size: 2em;
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  main {
+    .above-fold {
+      h1 {
+        font-size: 2.4em;
+      }
+      h2 {
+        font-size: 1.8em;
+      }
+      h3 {
+        font-size: 1.2em;
+      }
+    }
+    .about-me {
+      p {
+        font-size: 0.9em;
+      }
+    }
+    .connect {
+      h5 {
+        font-size: 3em;
+      }
+      a {
+        font-size: 1.4em;
+        margin: 0.3em 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  main {
+    .above-fold {
+      h1 {
+        font-size: 2.1em;
+      }
+      h2 {
+        font-size: 1.6em;
+      }
+      h3 {
+        font-size: 1em;
+      }
+    }
+    .about-me {
+      .tech-stack {
+        font-size: 0.8em;
+      }
+    }
+  }
+}

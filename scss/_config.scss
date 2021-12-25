@@ -1,0 +1,19 @@
+// COLOR SCHEME
+$main-bg-color: #0c0a29;
+$secondary-bg-color: #2f2d46;
+$red-color: #d1444a;
+$pink-color: #fc928c;
+$off-white: #f4efe3;
+$gray-color: #989795;
+
+$primary: $main-bg-color;
+$secondary: $secondary-bg-color;
+$header-color: $pink-color;
+$header-color-seconday: $gray-color;
+$text-color: $off-white;
+$text-highlight: $red-color;
+
+// FONTS
+$main-font: 'Sintony', sans-serif;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
