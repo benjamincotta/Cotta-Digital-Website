@@ -22239,6 +22239,7 @@ textarea.form-control-lg {
 }
 * {
   font-family: "Sintony", sans-serif;
+  font-display: swap;
 }
 
 header {
@@ -22365,6 +22366,12 @@ main .about-me p {
   color: #f4efe3;
   letter-spacing: 1px;
 }
+main .about-me p a {
+  color: #fc928c;
+}
+main .about-me span {
+  color: #fc928c;
+}
 main .work {
   height: 100vh;
 }
@@ -22378,6 +22385,9 @@ main .work .card .card-text,
 main .work .card a {
   color: #f4efe3;
 }
+main .work .card .card-text {
+  height: 100px;
+}
 main .work .card h5, main .work .card .h5 {
   color: #fc928c;
   letter-spacing: 2px;
@@ -22388,6 +22398,12 @@ main .work .card a {
 }
 main .work .card a:hover {
   color: #d1444a;
+}
+main .work .card h6, main .work .card .h6 {
+  color: #fc928c;
+}
+main .work .card p {
+  color: #f4efe3;
 }
 main .connect {
   height: 100vh;

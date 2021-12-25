@@ -54,6 +54,13 @@ main {
     p {
       color: $text-color;
       letter-spacing: 1px;
+
+      a {
+        color: $pink-color;
+      }
+    }
+    span {
+      color: $pink-color;
     }
   }
   .work {
@@ -69,6 +76,9 @@ main {
       a {
         color: $text-color;
       }
+      .card-text {
+        height: 100px;
+      }
       h5 {
         color: $pink-color;
         letter-spacing: 2px;
@@ -80,6 +90,12 @@ main {
         &:hover {
           color: $red-color;
         }
+      }
+      h6 {
+        color: $pink-color;
+      }
+      p {
+        color: $text-color;
       }
     }
   }
