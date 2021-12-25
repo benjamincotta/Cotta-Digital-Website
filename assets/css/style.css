@@ -22426,7 +22426,8 @@ main .connect a:hover {
   color: #d1444a;
 }
 main .connect svg {
-  margin-left: 0.3em;
+  margin-right: 0.3em;
+  color: #f4efe3;
 }
 
 @media (max-width: 768px) {
@@ -22435,6 +22436,9 @@ main .connect svg {
   }
   main .above-fold h2, main .above-fold .h2 {
     font-size: 2.6em;
+  }
+  main .work {
+    height: auto;
   }
   main .work h5, main .work .h5 {
     font-size: 1em;
@@ -22455,9 +22459,6 @@ main .connect svg {
   }
   main .above-fold h3, main .above-fold .h3 {
     font-size: 1.2em;
-  }
-  main .work {
-    height: auto;
   }
   main .connect h5, main .connect .h5 {
     font-size: 3.2em;
