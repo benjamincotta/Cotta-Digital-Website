@@ -22251,6 +22251,7 @@ header nav .navbar-brand img {
 header nav .nav-link {
   color: #d1444a;
   letter-spacing: 1.5px;
+  transition: all 0.5s !important;
 }
 header nav .nav-link:hover {
   color: #fc928c;
